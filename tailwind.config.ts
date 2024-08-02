@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "lightBlue": "#F0F7FF"
+
+      },
+      fontSize: {
+        "44": "44.24px",
+        "620": "620px",
+        "530": "530px",
+        "928": "928px"
+
+      },
+      fontFamily: {
+        arima: ['Arima Madurai', 'sans-serif'],
       },
     },
   },
