@@ -25,7 +25,14 @@ const config: Config = {
       },
       width: {
         "50": "50px",
-        "70": "70px"
+        "70": "70px",
+        "142": "142px",
+
+      },
+
+      height: {
+        "162": "162px",
+
       },
       fontFamily: {
         arima: ['Arima Madurai', 'sans-serif'],

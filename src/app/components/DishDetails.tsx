@@ -2,7 +2,7 @@ import React from 'react'
 
 function DishDetails() {
   return (
-    <div className='h-620 w-2/3 border-white border-8 shadow-lg rounded-3xl flex flex-row p-4 sm:grid-col'>
+    <div className='h-620 w-2/3 border-white border-8 shadow-lg rounded-3xl flex flex-row p-4 sm:grid-col mb-4'>
 
     <div>
         <h2 className='text-2xl my-4'>Chicken Steak</h2>
