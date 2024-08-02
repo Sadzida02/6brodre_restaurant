@@ -2,11 +2,11 @@ import React from 'react'
 
 function DishDetails() {
   return (
-    <div className='h-620 w-2/3 border-white border-8 shadow-lg rounded-md flex flex-row p-4'>
+    <div className='h-620 w-2/3 border-white border-8 shadow-lg rounded-3xl flex flex-row p-4 sm:grid-col'>
 
     <div>
         <h2 className='text-2xl my-4'>Chicken Steak</h2>
-        <p>Chicken Steak Recipe With Pan Roasted Vegetables & Potato Mash is a delicious meal in itself. The chicken is marinated in a lovely marinade that is bursting with flavours that include fresh parsley , lemon, garlic and mixed herbs. All of which add to the yummilicious taste of the chicken. </p>
+        <p className='font-normal text-13'>Chicken Steak Recipe With Pan Roasted Vegetables & Potato Mash is a delicious meal in itself. The chicken is marinated in a lovely marinade that is bursting with flavours that include fresh parsley , lemon, garlic and mixed herbs. All of which add to the yummilicious taste of the chicken. </p>
 
         <h3 className='text-lightGray my-4 text-xl'>Ingredients</h3>
 
@@ -53,8 +53,37 @@ function DishDetails() {
             </div>
         </div>
 
-        <button className='h-6 w-32'>View all Ingredients</button>
+        <button className='h-6 w-32 bg-teal text-white text-center text-8 rounded-md mt-5'>View all Ingredients</button>
 
+        <h3 className='text-lightGray my-4 text-xl'>Nutritional Values</h3>
+
+        <div className='grid grid-cols-4 gap-1'>
+            <div className='w-70 h-20 border-2 rounded-lg border-white p-2 flex flex-col font-medium items-center shadow-md'>
+                <p className='text-black text-xl'>350</p>
+                <p className='text-black text-13'>calories</p>
+                <p className='text-lightGray text-13'>kcal</p>
+            </div>
+            <div className='w-70 h-20 border-2 rounded-lg border-white p-2 flex flex-col font-medium items-center shadow-md'>
+                <p className='text-black text-xl'>15</p>
+                <p className='text-black text-13'>Proteins</p>
+                <p className='text-lightGray text-13'>g</p>
+            </div>
+            <div className='w-70 h-20 border-2 rounded-lg border-white p-2 flex flex-col font-medium items-center shadow-md'>
+                <p className='text-black text-xl'>25</p>
+                <p className='text-black text-13'>Fats</p>
+                <p className='text-lightGray text-13'>g</p>
+            </div>
+            <div className='w-70 h-20 border-2 rounded-lg border-white p-2 flex flex-col font-medium items-center shadow-md'>
+                <p className='text-black text-xl'>90</p>
+                <p className='text-black text-13'>Carbs</p>
+                <p className='text-lightGray text-13'>g</p>
+            </div>           
+        </div>
+
+        <div className='flex mt-5 mb-8'>
+            <button className='h-6 w-32 bg-teal text-white text-8 text-center rounded-md'>Recipe</button>
+            <button className='h-6 w-32 bg-white border-teal border-2 text-center text-teal text-8 rounded-md ml-3'>Add to Favorites</button>
+        </div>
 
     </div>
 

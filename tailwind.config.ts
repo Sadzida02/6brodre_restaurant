@@ -18,12 +18,14 @@ const config: Config = {
         "620": "620px",
         "530": "530px",
         "928": "928px",
+        "13": "13px",
         "10": "10px",
         "8": "8px",
         
       },
       width: {
-        "50": "50px"
+        "50": "50px",
+        "70": "70px"
       },
       fontFamily: {
         arima: ['Arima Madurai', 'sans-serif'],
